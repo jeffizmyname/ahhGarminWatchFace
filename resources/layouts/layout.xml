@@ -1,0 +1,19 @@
+<layout id="WatchFace">
+    <label id="test" x="center" y="20%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+    <!-- <label id="TimeLabel" x="40%" y="center" font="Graphics.FONT_SYSTEM_NUMBER_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="0xff8e0c" />
+    <label id="SecondsLabel" x="74%" y="center" font="Graphics.FONT_SYSTEM_NUMBER_MILD" justification="Graphics.TEXT_JUSTIFY_LEFT" color="0xffae0c"/> -->
+</layout>
+
+
+
+<!--
+
+ class Watch {
+    String time = "xx:xx:xx";
+    String date = "xx:xx:xx";
+    int steps = "123123";
+    int heartRate = "51";
+ }
+
+
+-->

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\stasi\Documents\koding\garmin\helloGarmin\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="1" lineNum="8" parent="globals/helloGarminView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminApp.mc" id="2" lineNum="26" parent="globals" pc="268435472" symbol="getApp"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminApp.mc" id="2" lineNum="27" parent="globals" pc="268435482" symbol="getApp"/>
+        <entry filename="c:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\bin\\gen\\006-B3943-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminApp.mc" id="4" lineNum="5" parent="globals/helloGarminApp" pc="268435513" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="7" lineNum="12" parent="globals/helloGarminView" pc="268435525" symbol="onLayout"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="7" lineNum="12" parent="globals/helloGarminView" pc="268435527" symbol="onLayout"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="9" lineNum="9" parent="globals/helloGarminView" pc="268435561" symbol="initialize"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="9" lineNum="9" parent="globals/helloGarminView" pc="268435563" symbol="initialize"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="11" lineNum="20" parent="globals/helloGarminView" pc="268435576" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="11" lineNum="21" parent="globals/helloGarminView" pc="268435579" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="11" lineNum="22" parent="globals/helloGarminView" pc="268435591" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="11" lineNum="23" parent="globals/helloGarminView" pc="268435604" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="11" lineNum="24" parent="globals/helloGarminView" pc="268435622" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="11" lineNum="25" parent="globals/helloGarminView" pc="268435698" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="11" lineNum="26" parent="globals/helloGarminView" pc="268435748" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="11" lineNum="27" parent="globals/helloGarminView" pc="268435760" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="11" lineNum="28" parent="globals/helloGarminView" pc="268435771" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="11" lineNum="29" parent="globals/helloGarminView" pc="268435779" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="11" lineNum="30" parent="globals/helloGarminView" pc="268435787" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="11" lineNum="31" parent="globals/helloGarminView" pc="268435811" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminView.mc" id="11" lineNum="34" parent="globals/helloGarminView" pc="268435862" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminApp.mc" id="12" lineNum="12" parent="globals/helloGarminApp" pc="268435883" symbol="onStart"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminApp.mc" id="13" lineNum="20" parent="globals/helloGarminApp" pc="268435886" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminApp.mc" id="13" lineNum="21" parent="globals/helloGarminApp" pc="268435888" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminApp.mc" id="14" lineNum="7" parent="globals/helloGarminApp" pc="268435918" symbol="initialize"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminApp.mc" id="14" lineNum="8" parent="globals/helloGarminApp" pc="268435920" symbol="initialize"/>
+        <entry filename="C:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\source\\helloGarminApp.mc" id="15" lineNum="16" parent="globals/helloGarminApp" pc="268435933" symbol="onStop"/>
+        <entry filename="c:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\bin\\gen\\006-B3943-00\\source\\Rez.mcgen" id="16" lineNum="13" parent="globals/Rez/Layouts" pc="268435936" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\bin\\gen\\006-B3943-00\\source\\Rez.mcgen" id="16" lineNum="14" parent="globals/Rez/Layouts" pc="268435947" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\stasi\\Documents\\koding\\garmin\\helloGarmin\\bin\\gen\\006-B3943-00\\source\\Rez.mcgen" id="16" lineNum="16" parent="globals/Rez/Layouts" pc="268436025" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="10" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="7" object="true" symbol="helloGarminView"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="9" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8" module="true" symbol="Layouts"/>
+        <entry id="6" object="true" symbol="helloGarminApp"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435560" name="dc" stackId="1" startPc="268435525"/>
+        <entry arg="true" endPc="268435882" name="dc" stackId="1" startPc="268435576"/>
+        <entry endPc="268435881" name="clockTime" stackId="2" startPc="268435579"/>
+        <entry endPc="268435881" name="now" stackId="3" startPc="268435579"/>
+        <entry endPc="268435881" name="info" stackId="4" startPc="268435579"/>
+        <entry endPc="268435881" name="timeString" stackId="5" startPc="268435579"/>
+        <entry endPc="268435881" name="dateString" stackId="6" startPc="268435579"/>
+        <entry endPc="268435881" name="infoActivity" stackId="7" startPc="268435579"/>
+        <entry endPc="268435881" name="infoHr" stackId="8" startPc="268435579"/>
+        <entry endPc="268435881" name="hr" stackId="9" startPc="268435579"/>
+        <entry endPc="268435881" name="steps" stackId="10" startPc="268435579"/>
+        <entry endPc="268435881" name="view" stackId="11" startPc="268435579"/>
+        <entry arg="true" endPc="268436034" name="dc" stackId="1" startPc="268435936"/>
+        <entry endPc="268436034" name="rez_cmp_local_text_test" stackId="2" startPc="268435947"/>
+    </localVars>
+    <deviceInfo deviceVersion="fcbb2d71ec35a1d3f34d13093a6835d1c69522b8" partNumber="006-B3943-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/helloGarminView" offset="125" parentId="globals" symbolId="helloGarminView" type="class"/>
+        <dataEntry label="globals/Rez" offset="223" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/helloGarminApp" offset="276" parentId="globals" symbolId="helloGarminApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="347" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="382" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="417" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="helloGarminView" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435492" name="getApp" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="Rez" startPc="268435493">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="helloGarminApp" startPc="268435513">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="helloGarminView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="helloGarminView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435560" name="onLayout" parent="helloGarminView" startPc="268435525">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="helloGarminView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435575" name="initialize" parent="helloGarminView" startPc="268435561">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="helloGarminView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435882" name="onUpdate" parent="helloGarminView" startPc="268435576">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435885" name="onStart" parent="helloGarminApp" startPc="268435883">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435917" name="getInitialView" parent="helloGarminApp" startPc="268435886">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435932" name="initialize" parent="helloGarminApp" startPc="268435918">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435935" name="onStop" parent="helloGarminApp" startPc="268435933">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436034" name="WatchFace" parent="Layouts" startPc="268435936">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

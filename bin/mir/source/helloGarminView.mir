@@ -1,0 +1,197 @@
+[ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 3; ]
+import Toybox.System;
+[ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 5; ]
+import Toybox.ActivityMonitor;
+[ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 6; ]
+using Toybox.Time.Gregorian as :Calendar;
+[ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 8; ]
+class helloGarminView extends WatchUi.WatchFace{
+    [ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 9; ]
+    function initialize() as Void {
+C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_9_24_9_50_start:
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 9 26 ]
+        %tmp.2 = getv ? :WatchFace;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_9_24_9_50_stop:
+    }
+    [ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 12; ]
+    function onLayout(dc as Dc) as Void {
+C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_12_38_12_78_start:
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 12 40 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :WatchFace;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_12_38_12_78_stop:
+    }
+    [ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 17; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 20; ]
+    function onUpdate(dc as Dc) as Void {
+C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_start:
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 21 4 ]
+        [ "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_start" "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_stop" ]
+        %clockTime.1 = local;
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %clockTime.1 %tmp.3;
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 22 4 ]
+        [ "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_start" "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_stop" ]
+        %now.2 = local;
+        %tmp.5 = getv ? :Time;
+        %tmp.6 = getv function %tmp.5 :now;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        lputv %now.2 %tmp.7;
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 23 4 ]
+        [ "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_start" "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_stop" ]
+        %info.3 = local;
+        %tmp.8 = getm $.Toybox.Time.Gregorian;
+        %tmp.9 = getv function %tmp.8 :info;
+        %tmp.11 = lgetv %now.2;
+        %tmp.13 = getv ? :Time;
+        %tmp.14 = getv %tmp.13 :FORMAT_LONG;
+        %tmp.15 = invoke %tmp.8 %tmp.9(%tmp.11, %tmp.14);
+        lputv %info.3 %tmp.15;
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 24 4 ]
+        [ "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_start" "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_stop" ]
+        %timeString.4 = local;
+        %tmp.16 = getm $.Toybox.Lang;
+        %tmp.17 = getv function %tmp.16 :format;
+        %tmp.18 = "$1$:$2$:$3$";
+        %tmp.19 = newa 3;
+        %tmp.20 = lgetv %clockTime.1;
+        %tmp.21 = getv %tmp.20 :hour;
+        %tmp.22 = dup %tmp.19;
+        %tmp.23 = aputv %tmp.22 0 %tmp.21;
+        %tmp.24 = lgetv %clockTime.1;
+        %tmp.25 = getv %tmp.24 :min;
+        %tmp.26 = getv function %tmp.25 :format;
+        %tmp.27 = "%02d";
+        %tmp.28 = invoke %tmp.25 %tmp.26(%tmp.27);
+        %tmp.29 = dup %tmp.23;
+        %tmp.30 = aputv %tmp.29 1 %tmp.28;
+        %tmp.31 = lgetv %clockTime.1;
+        %tmp.32 = getv %tmp.31 :sec;
+        %tmp.33 = getv function %tmp.32 :format;
+        %tmp.34 = "%02d";
+        %tmp.35 = invoke %tmp.32 %tmp.33(%tmp.34);
+        %tmp.36 = dup %tmp.30;
+        %tmp.37 = aputv %tmp.36 2 %tmp.35;
+        %tmp.38 = invoke %tmp.16 %tmp.17(%tmp.18, %tmp.37);
+        lputv %timeString.4 %tmp.38;
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 25 4 ]
+        [ "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_start" "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_stop" ]
+        %dateString.5 = local;
+        %tmp.39 = getm $.Toybox.Lang;
+        %tmp.40 = getv function %tmp.39 :format;
+        %tmp.41 = "$1$:$2$:$3$";
+        %tmp.42 = newa 3;
+        %tmp.43 = lgetv %info.3;
+        %tmp.44 = getv %tmp.43 :month;
+        %tmp.45 = dup %tmp.42;
+        %tmp.46 = aputv %tmp.45 0 %tmp.44;
+        %tmp.47 = lgetv %info.3;
+        %tmp.48 = getv %tmp.47 :day;
+        %tmp.49 = dup %tmp.46;
+        %tmp.50 = aputv %tmp.49 1 %tmp.48;
+        %tmp.51 = lgetv %info.3;
+        %tmp.52 = getv %tmp.51 :year;
+        %tmp.53 = dup %tmp.50;
+        %tmp.54 = aputv %tmp.53 2 %tmp.52;
+        %tmp.55 = invoke %tmp.39 %tmp.40(%tmp.41, %tmp.54);
+        lputv %dateString.5 %tmp.55;
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 26 4 ]
+        [ "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_start" "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_stop" ]
+        %infoActivity.6 = local;
+        %tmp.56 = getm $.Toybox.ActivityMonitor;
+        %tmp.57 = getv function %tmp.56 :getInfo;
+        %tmp.58 = invoke %tmp.56 %tmp.57();
+        lputv %infoActivity.6 %tmp.58;
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 27 4 ]
+        [ "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_start" "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_stop" ]
+        %infoHr.7 = local;
+        %tmp.59 = getm $.Toybox.ActivityMonitor;
+        %tmp.60 = getv %tmp.59 :HeartRateSample;
+        lputv %infoHr.7 %tmp.60;
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 28 4 ]
+        [ "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_start" "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_stop" ]
+        %hr.8 = local;
+        %tmp.61 = lgetv %infoHr.7;
+        %tmp.62 = getv %tmp.61 :heartRate;
+        lputv %hr.8 %tmp.62;
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 29 4 ]
+        [ "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_start" "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_stop" ]
+        %steps.9 = local;
+        %tmp.63 = lgetv %infoActivity.6;
+        %tmp.64 = getv %tmp.63 :steps;
+        lputv %steps.9 %tmp.64;
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 30 4 ]
+        [ "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_start" "C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_stop" ]
+        %view.10 = local;
+        %tmp.66 = getv ? :View;
+        %tmp.67 = getv function %tmp.66 :findDrawableById;
+        %tmp.68 = "test";
+        %tmp.69 = invoke %tmp.66 %tmp.67(%tmp.68);
+        %tmp.70 = as %tmp.69 Text;
+        lputv %view.10 %tmp.70;
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 31 4 ]
+        %tmp.71 = lgetv %view.10;
+        %tmp.72 = getv function %tmp.71 :setText;
+        %tmp.73 = "class Watch {\n   String time = \"";
+        %tmp.75 = lgetv %timeString.4;
+        %tmp.76 = add %tmp.73 %tmp.75;
+        %tmp.77 = "\"; \n  String date = \"";
+        %tmp.78 = add %tmp.76 %tmp.77;
+        %tmp.80 = lgetv %dateString.5;
+        %tmp.81 = add %tmp.78 %tmp.80;
+        %tmp.82 = "\"; \n  int steps = \"";
+        %tmp.83 = add %tmp.81 %tmp.82;
+        %tmp.85 = lgetv %steps.9;
+        %tmp.86 = add %tmp.83 %tmp.85;
+        %tmp.87 = "\"; \n  int heartRate = \"";
+        %tmp.88 = add %tmp.86 %tmp.87;
+        %tmp.90 = lgetv %hr.8;
+        %tmp.91 = add %tmp.88 %tmp.90;
+        %tmp.92 = "\";\n}";
+        %tmp.93 = add %tmp.91 %tmp.92;
+        invoke %tmp.71 %tmp.72(%tmp.93);
+[ "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc" 34 4 ]
+        %tmp.95 = getv ? :View;
+        %tmp.96 = getv function %tmp.95 :onUpdate;
+        %tmp.98 = lgetv %dc;
+        invoke %tmp.95 %tmp.96(%tmp.98);
+C_Users_stasi_Documents_koding_garmin_helloGarmin_source_helloGarminView_mc_20_38_35_0_stop:
+    }
+    [ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 40; ]
+    function onHide() as Void {
+    }
+    [ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 44; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 47; ]
+    function onEnterSleep() as Void {
+    }
+}
+[ @file = "C:\Users\stasi\Documents\koding\garmin\helloGarmin\source\helloGarminView.mc"; @line = 1; ]
+<init> {
+}
